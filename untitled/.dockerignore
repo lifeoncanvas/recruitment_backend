@@ -1,0 +1,7 @@
+# Never bake secrets or local build output into the image
+.env
+.env.*
+target/
+uploads/
+.idea/
+*.iml
